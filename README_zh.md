@@ -11,6 +11,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 ## 目录
 
 - [Jev 是什么？](#jev-是什么)
+- [🧭 生态项目分类快速导航表](#-生态项目分类快速导航表)
 - [APA (AIPersona Academy) 生态与旗舰项目](#apa-aipersona-academy-生态与旗舰项目)
 - [官方资源](#官方资源)
 - [社区与 AIPersona Academy 官方阵地](#社区与-aipersona-academy-官方阵地)
@@ -41,6 +42,46 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 > **💡 APA Persona 架构师视角：**  
 > 在 **APA (AIPersona Academy)**，我们将 System One 模型视作自主 AI Persona（智能画像/智能体）的“自主神经系统”。传统的 LLM 聊天循环在处理机械控制流时既慢又昂贵，且概率未校准。APA 架构将确定性的类型化毫秒级判断（Jev）与生成式 Persona 彻底解耦，确保智能体在控制流与策略边界上具备零幻觉风险、微秒级响应与严格的置信度栅栏。
+
+## 🧭 生态项目分类快速导航表
+
+按功能领域分类整理的 Jev 与 System One 精选开源工具、应用与框架全景导航：
+
+| 领域分类 | 开源项目 | 简要概述 | 核心原语 |
+| :--- | :--- | :--- | :---: |
+| **🛡️ 网络安全与 EDR** | [Jev-AV 与 Jev Guard](https://github.com/newuser7171/antivirus) | 文件防病毒、URL 威胁检测、Windows 实时 EDR 哨兵与 Android APK 审计 | `Choice`, `Score`, `Noul` |
+| | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord 实时垃圾信息/诈骗链接检测与成员行为画像机器人 | `Choice`, `Noul` |
+| | [tripwire](https://github.com/noelzappy/tripwire) | 在 LLM 响应上运行 100ms 级别、带置信度门控的安全检查中间件 | `Noul` |
+| | [TypeSafe AdBlock](https://github.com/realZachi/typesafe-adblock) | 智能判断 DOM 节点是否为广告并将其移除的 Chrome 扩展 | `Noul` |
+| **🤖 智能体与运行时** | [APA 自主 Persona 引擎](https://github.com/AiPersonacademy/apa-persona-engine) | 确定性状态路由、情感效价调制与安全网关的多智能体企业级运行时 | `Choice`, `Score` |
+| | [APA Agent 决策 Harness](https://github.com/AiPersonacademy/apa-agent-harness) | 面向 Claude Code、Codex 与 Cursor 的安全策略路由与轨迹验证脚手架 | `Choice`, `Score`, `Noul` |
+| | [ProgressGate](https://github.com/AshutoshVJTI/progressgate) | 监控智能体循环语义停滞（CONTINUE / WARN / REPLAN / HALT） | `Choice` |
+| | [Foreman](https://github.com/thruwire/foreman) | 软件工厂循环：评估代码实现完整度、测试覆盖与人工接管需求 | `Choice`, `Noul` |
+| | [jev-harness](https://github.com/AntonioCoppe/jev-harness) | 生产级封装层：策略路由、置信度门控、影子模式与评测 CLI | `Choice`, `Score` |
+| **🔎 代码检索与开发工具** | [Jev Code Finder](https://github.com/Peu77/JevFind) | 基于自然语言查询定位文件相关度与精准代码行置信度的搜索 CLI | `Choice`, `Score` |
+| | [blink](https://github.com/ellipsis-dev/blink) | 使用 walker 智能体集群在代码库中回答自然语言查询的搜索工具 | `Choice` |
+| | [Every](https://github.com/sufianetaouil/every) | 针对每个函数提出 yes/no 问题并按 Noul 概率排序的代码搜索 CLI | `Noul` |
+| | [Supercov](https://github.com/supercorp-ai/supercov) | 针对编程智能体的代码质量与测试覆盖打分工具，指引优先修改位置 | `Score` |
+| | [Jev Review](https://github.com/devagrawal09/jev-review) | 分阶段代码审查工作流与本地看板 | `Choice`, `Score` |
+| **📊 数据智能与采集** | [APA 爬取与市场情报套件](https://github.com/AiPersonacademy/apa-scraping-suite) | 抗检测社群情报采集套件，毫秒级筛查买家痛点与营销 Hook | `Choice`, `Noul` |
+| | [Jev Search](https://github.com/superagents-lab/jev-search) | 利用 Jev 判断挑选搜索来源、时间范围与重排检索结果的 Web 搜索 | `Choice`, `Noul` |
+| | [neo4jev](https://github.com/jexp/neo4jev) | 在 Neo4j 图数据库节点上选择关系走向的束搜索漫游工具 | `Choice` |
+| | [sqlite3-jev](https://github.com/mattn/sqlite3-jev) | 将 Jev 评估原语暴露为原生 SQL 函数的 SQLite C 扩展 | `Choice`, `Score`, `Noul` |
+| | [jevql](https://github.com/kylemclaren/jevql) | 原生 Postgres SQL 批处理引擎，直接在服务端运行 Jev 判定 | `Choice`, `Score`, `Noul` |
+| **🎮 游戏、仿真与机器人** | [Jev 玩星际争霸](https://github.com/phyous/tsai-sc) | 初代星际争霸战役结构化状态测试平台，带概率轨迹与运行记录 | `Choice` |
+| | [Jev × 文明 II](https://github.com/phyous/tsai-civ2) | 浏览器文明 II 决策平台，Jev 决定帝国科技、城市治理与部队调动 | `Choice` |
+| | [Jev Drone](https://github.com/RomanSlack/jev-drone) | MuJoCo 四旋翼模拟：底层控制留给代码，Jev 负责战术决策 | `Choice` |
+| | [jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm) | 零样本英语目标驱动的 Franka 机械臂运动控制 | `Choice` |
+| **🌐 Web、实时与金融** | [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | 实验性 Hono 路由中间件：将请求匹配至自然语言路由描述 | `Choice` |
+| | [Jev Trader](https://github.com/jarrodwatts/jev-trader) | 基于 Monad 区块在 Kuru 订单簿上执行买卖决策的高频交易 Demo | `Choice` |
+| | [Human Compiler](https://github.com/asfarsadewa/human-compiler) | 评估职场沟通文本的被动攻击与紧急程度，输出 rustc 风格诊断 | `Score` |
+| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | 针对视频内容进行逐句实时 Jev 打分并生成 16:9 动态遮罩 | `Score` |
+| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | 466ms 低延迟音频辱骂检测并自动打码消音 | `Noul` |
+| **📱 浏览器与移动端** | [jev-ego](https://github.com/romaluev/jev-ego) | 基于 ego lite 的浏览器智能体，单次请求完成操作与目标选择 | `Choice` |
+| | [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) | 基于 Playwright 快照决策点击/输入的自动化工具与 MCP 服务 | `Choice` |
+| | [Mobile Jev](https://github.com/droidrun/mobile-jev) | 基于 Mobilerun 的免 ADB 安卓自动化智能体 | `Choice` |
+| | [Unclutter](https://github.com/kitze/unclutter) | 自动识别非必要网页元素并通过本地规则隐藏的浏览器扩展 | `Choice` |
+
 
 ## APA (AIPersona Academy) 生态与旗舰项目
 

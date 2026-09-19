@@ -11,6 +11,7 @@ Jev launched in early access on 15 September 2026. This catalog is curated and m
 ## Contents
 
 - [What is Jev?](#what-is-jev)
+- [🧭 Quick Ecosystem Directory](#-quick-ecosystem-directory)
 - [APA (AIPersona Academy) Showcase & Integrations](#apa-aipersona-academy-showcase--integrations)
 - [Official](#official)
 - [Community & AIPersona Academy Hub](#community--aipersona-academy-hub)
@@ -41,6 +42,46 @@ Questions in one request run in parallel against the same state. Atomic question
 
 > **💡 APA Persona Architecture Perspective:**  
 > At **AIPersona Academy (APA)**, we treat System One models as the autonomic nervous system of autonomous AI personas. Rather than relying on slow, verbose, uncalibrated LLM chat loops for control-plane decisions, APA architectures decouple fast typed decisions (Jev) from generative personas. This ensures deterministic execution, microsecond policy guardrails, and zero hallucination risk on critical routing branches.
+
+## 🧭 Quick Ecosystem Directory
+
+A categorized master overview of all featured open-source tools, applications, and frameworks across the Jev & System One ecosystem:
+
+| Category | Repository | Brief Summary | Core Primitives |
+| :--- | :--- | :--- | :---: |
+| **🛡️ Security & EDR** | [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) | File antivirus, URL threat scanner, live Windows EDR sentinel & Android APK inspector | `Choice`, `Score`, `Noul` |
+| | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord bot for real-time scam/spam filtering & user behavioral profiling | `Choice`, `Noul` |
+| | [tripwire](https://github.com/noelzappy/tripwire) | Sub-100ms confidence-gated safety guardrails on LLM responses | `Noul` |
+| | [TypeSafe AdBlock](https://github.com/realZachi/typesafe-adblock) | Chrome extension that classifies and strips advertising DOM elements | `Noul` |
+| **🤖 Agents & Runtimes** | [APA Persona Engine](https://github.com/AiPersonacademy/apa-persona-engine) | Autonomous AI persona runtime with deterministic state routing & emotional valence | `Choice`, `Score` |
+| | [APA Agent Decision Harness](https://github.com/AiPersonacademy/apa-agent-harness) | Safety scoring & trajectory verification harness for Claude Code, Codex, and Cursor | `Choice`, `Score`, `Noul` |
+| | [ProgressGate](https://github.com/AshutoshVJTI/progressgate) | Detects semantic loop stagnation (CONTINUE / WARN / REPLAN / HALT) in agents | `Choice` |
+| | [Foreman](https://github.com/thruwire/foreman) | Software-factory loop evaluating completeness, testing, and human escalation | `Choice`, `Noul` |
+| | [jev-harness](https://github.com/AntonioCoppe/jev-harness) | Production layer for policy, confidence gates, shadow mode, and eval CLI | `Choice`, `Score` |
+| **🔎 Code & Search** | [Jev Code Finder](https://github.com/Peu77/JevFind) | Fast semantic code search CLI with path relevance and line-level confidence | `Choice`, `Score` |
+| | [blink](https://github.com/ellipsis-dev/blink) | Codebase search using an ensemble of walkers querying Jev on file relevance | `Choice` |
+| | [Every](https://github.com/sufianetaouil/every) | Semantic code search checking functions with yes/no questions ranked by Noul | `Noul` |
+| | [Supercov](https://github.com/supercorp-ai/supercov) | Code quality and test coverage prioritization for coding agents | `Score` |
+| | [Jev Review](https://github.com/devagrawal09/jev-review) | Staged code-review workflow and local review dashboard | `Choice`, `Score` |
+| **📊 Data & Scraping** | [APA Scraping Suite](https://github.com/AiPersonacademy/apa-scraping-suite) | Zero-auth Reddit/social intelligence scraper & Voice-of-Customer scoring | `Choice`, `Noul` |
+| | [Jev Search](https://github.com/superagents-lab/jev-search) | Web search app using Jev judgments to select sources and rank retrieved results | `Choice`, `Noul` |
+| | [neo4jev](https://github.com/jexp/neo4jev) | Neo4j graph navigation using beam search over relationship log-probabilities | `Choice` |
+| | [sqlite3-jev](https://github.com/mattn/sqlite3-jev) | SQLite C extension exposing Jev evaluation primitives as native SQL functions | `Choice`, `Score`, `Noul` |
+| | [jevql](https://github.com/kylemclaren/jevql) | Postgres SQL query engine running server-side Jev evaluations over rows | `Choice`, `Score`, `Noul` |
+| **🎮 Gaming & Simulation** | [Jev Plays StarCraft](https://github.com/phyous/tsai-sc) | Structured-state campaign harness with verified probability traces | `Choice` |
+| | [Jev × Civilization II](https://github.com/phyous/tsai-civ2) | Browser Civ II engine with Jev directing empire, technology, and tactical units | `Choice` |
+| | [Jev Drone](https://github.com/RomanSlack/jev-drone) | MuJoCo quadrotor simulation: controls in code, tactical decisions via Jev | `Choice` |
+| | [jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm) | Zero-shot English task execution on a simulated Franka robotic arm | `Choice` |
+| **🌐 Web & Real-Time** | [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | Natural language HTTP route matching middleware for Hono | `Choice` |
+| | [Jev Trader](https://github.com/jarrodwatts/jev-trader) | On-chain Monad order book trading bot executing per-block decisions | `Choice` |
+| | [Human Compiler](https://github.com/asfarsadewa/human-compiler) | Analyzes workplace prose for passive-aggression and urgency with rustc diagnostics | `Score` |
+| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | Real-time sentence scoring and 16:9 graphic overlay rendering on video | `Score` |
+| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | Real-time audio profanity detector that beeps insults in ~466 ms | `Noul` |
+| **📱 Browser & Mobile** | [jev-ego](https://github.com/romaluev/jev-ego) | Browser agent selecting operations and elements via ego lite | `Choice` |
+| | [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) | Playwright browser automation deciding actions from DOM snapshots with MCP server | `Choice` |
+| | [Mobile Jev](https://github.com/droidrun/mobile-jev) | Android UI agent running without ADB on Mobilerun | `Choice` |
+| | [Unclutter](https://github.com/kitze/unclutter) | Browser extension hiding nonessential page elements using local template rules | `Choice` |
+
 
 ## APA (AIPersona Academy) Showcase & Integrations
 
