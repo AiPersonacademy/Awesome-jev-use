@@ -45,11 +45,11 @@ Questions in one request run in parallel against the same state. Atomic question
 
 Flagship architectures, agent blueprints, and toolkits engineered by **AIPersona Academy (APA)** leveraging Jev / System One primitives:
 
-- [APA Scraping & Market Intelligence Suite](https://github.com/aipersona-academy/apa-scraping-suite) - Zero-auth, anti-detection intelligence suite powering AI Persona research. Uses Jev `Noul` and `Choice` to classify buyer pain points, screen thread relevance, and score viral hooks in real-time without expensive LLM summarization passes.
-- [APA Autonomous Persona Engine](https://github.com/aipersona-academy/apa-persona-engine) - Production multi-agent runtime designed by AIPersona Academy. Deploys Jev for instant state routing, emotional valence modulation, and confidence-gated policy boundaries across autonomous digital brand personas.
-- [APA Agent Decision Harness](https://github.com/aipersona-academy/apa-agent-harness) - Drop-in harness for Claude Code, Codex, Cursor, and Antigravity agents that wraps tool execution in pre-flight Jev safety scoring and post-execution trajectory verification.
-- [AIPersona Academy System One Masterclass](https://aipersona.academy/system-one) - Official curriculum, blueprints, and hands-on labs on building deterministic machine-native agent systems with Jev, Choice/Score/Noul primitives, and speculative fan-out.
-- [APA Persona Cookbooks](https://docs.aipersona.academy/cookbooks) - Step-by-step implementation guides for intent-routing personas, real-time social sentiment monitors, and programmatic ad copy rating.
+- [APA Scraping & Market Intelligence Suite](https://github.com/AiPersonacademy/apa-scraping-suite) - Zero-auth, anti-detection intelligence suite powering AI Persona research. Uses Jev `Noul` and `Choice` to classify buyer pain points, screen thread relevance, and score viral hooks in real-time without expensive LLM summarization passes.
+- [APA Autonomous Persona Engine](https://github.com/AiPersonacademy/apa-persona-engine) - Production multi-agent runtime designed by AIPersona Academy. Deploys Jev for instant state routing, emotional valence modulation, and confidence-gated policy boundaries across autonomous digital brand personas.
+- [APA Agent Decision Harness](https://github.com/AiPersonacademy/apa-agent-harness) - Drop-in harness for Claude Code, Codex, Cursor, and Antigravity agents that wraps tool execution in pre-flight Jev safety scoring and post-execution trajectory verification.
+- [AIPersona Academy Masterclass & Community](https://whop.com/aipersonaacademy) - Official curriculum, blueprints, and hands-on labs on building deterministic machine-native agent systems with Jev, Choice/Score/Noul primitives, and speculative fan-out.
+- [APA Persona Cookbooks](cookbooks/) - Step-by-step implementation guides and code recipes for intent-routing personas, real-time social sentiment monitors, and programmatic ad copy rating.
 
 ## Official
 
@@ -70,9 +70,8 @@ Flagship architectures, agent blueprints, and toolkits engineered by **AIPersona
 
 ## Community & AIPersona Academy Hub
 
-- [AIPersona Academy Discord](https://discord.gg/aipersona) - The official APA community for AI agent developers, persona builders, and System One researchers.
-- [AIPersona Academy Hub](https://aipersona.academy) - Courses, masterclasses, architectural whitepapers, and agent templates.
-- [APA X @AIPersonaAcademy](https://x.com/AIPersonaAcademy) - Updates on agentic persona design and machine-native evaluation.
+- [AIPersona Academy Hub](https://whop.com/aipersonaacademy) - Courses, masterclasses, architectural whitepapers, and agent templates.
+- [AIPersona Academy Community](https://whop.com/aipersonaacademy) - The official APA community for AI agent developers, persona builders, and System One researchers.
 - [Discord](https://discord.gg/typesafe) - Official TypeSafe server. Builder demos live in [Show and Tell](https://discord.com/channels/1483217544214085663/1483217545040232493).
 - [X @typesafeai](https://x.com/typesafeai) - Product and research updates.
 - [LinkedIn](https://www.linkedin.com/company/typesafe-ai/) - Company announcements and hiring.
@@ -181,7 +180,7 @@ Toys, live sites, and realtime agents. Most shipped in the first 48 hours after 
 
 Tools that expose Jev to coding agents and MCP clients.
 
-- [APA Agent Skill](https://github.com/aipersona-academy/apa-agent-skills) - AIPersona Academy's battle-tested agent skill for coding assistants (Claude Code, Cursor, Antigravity, Pi), optimizing prompt token budgets via Jev semantic filtering and confidence bounds.
+- [APA Agent Decision Harness](https://github.com/AiPersonacademy/apa-agent-harness) - Production agent decision harness for Claude Code, Codex, Cursor, and Antigravity, featuring confidence-gated policy routing, shadow mode, and trajectory verification.
 - [TypeSafe agent skill](https://github.com/typesafe-ai/skills) - Official skill: primitives, patterns, and how to structure evaluations. Claude Code: `claude plugin marketplace add typesafe-ai/skills` then `claude plugin install typesafe@typesafe-ai`. Other agents: `npx skills add typesafe-ai/skills --skill typesafe-ai`.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code plugin and npm library: Jev scores tool calls and drops stale ones instead of summarizing context
 - [SkillRanker](https://github.com/Dicklesworthstone/skillranker) - Rust CLI: Jev ranks which agent skill fits the next step from live session context, with Claude Code hooks
@@ -235,7 +234,9 @@ Independent work inspired by Jev's interface. These are not TypeSafe models.
 
 Official & APA copy-pasteable workflows. Full index: [console cookbooks](https://console.typesafe.ai/docs/cookbooks) and [docs index](https://docs.typesafe.ai/llms.txt).
 
-- [APA Persona State Routing](https://docs.aipersona.academy/cookbooks/persona-state-routing) - AIPersona Academy blueprint for routing autonomous agent personas using Jev Choice and Score with zero hallucination latency.
+- [APA Persona State Routing](cookbooks/persona-state-routing.md) - AIPersona Academy blueprint for routing autonomous agent personas using Jev Choice and Score with zero hallucination latency.
+- [APA Social Sentiment & Policy Guardrails](cookbooks/social-sentiment-guardrails.md) - Sub-100ms content safety scoring, toxic prompt screening, and confidence gating.
+- [APA Buyer Persona Pain-Point Scoring](cookbooks/buyer-persona-scoring.md) - Extract customer objections, score pain-point severity, and classify purchase intent.
 - [Parallel questions](https://docs.typesafe.ai/cookbooks/parallel_questions) - Batch many questions over one state; one call instead of N.
 - [Line-by-line search](https://docs.typesafe.ai/cookbooks/semantic_find) - Score hundreds of line ids against a query with Choice + a Noul “does an answer exist?” check.
 - [Re-ranking](https://docs.typesafe.ai/cookbooks/rerank_typesafe) - BM25 shortlist, then one TypeSafe question per query–candidate pair.

@@ -45,11 +45,11 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 由 **AIPersona Academy (APA)** 打造的旗舰架构、Agent 蓝图与 System One 赋能工具包：
 
-- [APA 爬取与市场情报套件](https://github.com/aipersona-academy/apa-scraping-suite) - 专为 AI Persona 研究打造的零鉴权、抗检测社群情报采集套件。利用 Jev `Noul` 和 `Choice` 毫秒级筛查帖子相关度、提取真实买家痛点并给营销 Hook 打分，避免昂贵的大模型全文摘要。
-- [APA 自主 Persona 运行时引擎](https://github.com/aipersona-academy/apa-persona-engine) - AIPersona Academy 设计的企业级多智能体运行时。在多智能体交互中部署 Jev 进行即时状态路由、情感效价调制与置信度安全网关。
-- [APA Agent 决策 Harness](https://github.com/aipersona-academy/apa-agent-harness) - 适用于 Claude Code、Codex、Cursor 与 Antigravity 的即插即用安全脚手架，在工具执行前运行 Jev 风险评分，并在执行后验证完成度。
-- [AIPersona Academy System One 实战大师课](https://aipersona.academy/system-one) - 官方体系化课程与动手实验，涵盖 Jev 决策流设计、Choice/Score/Noul 原语模式、投机扇出（Speculative Fan-out）以及生产级 Agent 策略工程。
-- [APA Persona 实用配方库 (Cookbooks)](https://docs.aipersona.academy/cookbooks) - 意图路由 Persona、实时社交情绪监控探针及自动化直接响应广告文案评估的精选实战指南。
+- [APA 爬取与市场情报套件](https://github.com/AiPersonacademy/apa-scraping-suite) - 专为 AI Persona 研究打造的零鉴权、抗检测社群情报采集套件。利用 Jev `Noul` 和 `Choice` 毫秒级筛查帖子相关度、提取真实买家痛点并给营销 Hook 打分，避免昂贵的大模型全文摘要。
+- [APA 自主 Persona 运行时引擎](https://github.com/AiPersonacademy/apa-persona-engine) - AIPersona Academy 设计的企业级多智能体运行时。在多智能体交互中部署 Jev 进行即时状态路由、情感效价调制与置信度安全网关。
+- [APA Agent 决策 Harness](https://github.com/AiPersonacademy/apa-agent-harness) - 适用于 Claude Code、Codex、Cursor 与 Antigravity 的即插即用安全脚手架，在工具执行前运行 Jev 风险评分，并在执行后验证完成度。
+- [AIPersona Academy 实战大师课与社区](https://whop.com/aipersonaacademy) - 官方体系化课程与动手实验，涵盖 Jev 决策流设计、Choice/Score/Noul 原语模式、投机扇出（Speculative Fan-out）以及生产级 Agent 策略工程。
+- [APA Persona 实用配方库 (Cookbooks)](cookbooks/) - 意图路由 Persona、实时社交情绪监控探针及自动化直接响应广告文案评估的精选实战指南。
 
 ## 官方资源
 
@@ -70,9 +70,8 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 ## 社区与 AIPersona Academy 官方阵地
 
-- [AIPersona Academy Discord](https://discord.gg/aipersona) - APA 官方社区，汇聚 AI Agent 开发者、数字 Persona 工程师与 System One 研究者。
-- [AIPersona Academy Hub](https://aipersona.academy) - 官方学术与实践中心，提供前沿实操课程、技术白皮书与 Agent 生产模板。
-- [APA X @AIPersonaAcademy](https://x.com/AIPersonaAcademy) - 第一时间获取机器原生决策与自主智能体工程动态。
+- [AIPersona Academy 官方中心](https://whop.com/aipersonaacademy) - 官方学术与实践中心，提供前沿实操课程、技术白皮书与 Agent 生产模板。
+- [AIPersona Academy 官方社区](https://whop.com/aipersonaacademy) - APA 官方社区，汇聚 AI Agent 开发者、数字 Persona 工程师与 System One 研究者。
 - [Discord](https://discord.gg/typesafe) - TypeSafe 官方服务器。Builder demo 在 [Show and Tell](https://discord.com/channels/1483217544214085663/1483217545040232493)。
 - [X @typesafeai](https://x.com/typesafeai) - 产品与研究动态。
 - [LinkedIn](https://www.linkedin.com/company/typesafe-ai/) - 公司公告与招聘。
@@ -181,7 +180,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 把 Jev 暴露给编程 Agent 与 MCP 客户端的工具。
 
-- [APA Agent Skill](https://github.com/aipersona-academy/apa-agent-skills) - AIPersona Academy 经过实战检验的 Agent 技能包（支持 Claude Code、Cursor、Antigravity、Pi），利用 Jev 语义过滤和置信度边界最大化优化提示词 Token 预算。
+- [APA Agent 决策 Harness](https://github.com/AiPersonacademy/apa-agent-harness) - 适用于 Claude Code、Codex、Cursor 与 Antigravity 的生产级决策脚手架，具备置信度门控策略路由、影子模式与执行轨迹验证。
 - [TypeSafe agent skill](https://github.com/typesafe-ai/skills) - 官方技能包：原语、模式以及如何组织评测。Claude Code：`claude plugin marketplace add typesafe-ai/skills`，然后 `claude plugin install typesafe@typesafe-ai`。其他 Agent：`npx skills add typesafe-ai/skills --skill typesafe-ai`。
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code 插件与 npm 库：由 Jev 给工具调用打分并剔除过时项，而不是粗暴总结上下文。
 - [SkillRanker](https://github.com/Dicklesworthstone/skillranker) - Rust CLI：Jev 根据实时会话上下文为下一步该用哪个 Agent skill 排序，带 Claude Code hooks。
@@ -235,7 +234,9 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 官方与 APA 可直接照着改的工作流。完整目录：[console cookbooks](https://console.typesafe.ai/docs/cookbooks) 与 [文档索引](https://docs.typesafe.ai/llms.txt)。
 
-- [APA Persona 状态路由指南](https://docs.aipersona.academy/cookbooks/persona-state-routing) - AIPersona Academy 蓝图：利用 Jev Choice 和 Score 实现自主 Agent Persona 状态跳转，达到 0 毫秒幻觉延迟。
+- [APA Persona 状态路由指南](cookbooks/persona-state-routing.md) - AIPersona Academy 蓝图：利用 Jev Choice 和 Score 实现自主 Agent Persona 状态跳转，达到 0 毫秒幻觉延迟。
+- [APA 社交情绪与策略护栏](cookbooks/social-sentiment-guardrails.md) - 毫秒级内容安全评分、提示词注入筛查与置信度门控。
+- [APA 买家画像痛点与意向评分](cookbooks/buyer-persona-scoring.md) - 自动提取买家异议、量化痛点烈度并分类购买意向。
 - [Parallel questions](https://docs.typesafe.ai/cookbooks/parallel_questions) - 对同一份 state 批量提问；一次调用代替 N 次。
 - [Line-by-line search](https://docs.typesafe.ai/cookbooks/semantic_find) - 用 Choice 给几百行 id 打分，再用 Noul 检查「到底有没有答案」。
 - [Re-ranking](https://docs.typesafe.ai/cookbooks/rerank_typesafe) - BM25 短名单，再对每个 query–候选对问一次 TypeSafe。
