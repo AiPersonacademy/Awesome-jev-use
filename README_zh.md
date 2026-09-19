@@ -139,7 +139,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [Jev Drone](https://github.com/RomanSlack/jev-drone) - MuJoCo 四旋翼：控制与安全留在代码里，Jev 处理较慢的战术判断。
 - [Jev 玩星际争霸](https://github.com/phyous/tsai-sc) - 针对初代星际争霸共享版战役的结构化状态测试平台，带已验证的运行记录与概率轨迹。
 - [Jev × 文明 II](https://github.com/phyous/tsai-civ2) - 浏览器跑初代文明 II；Jev 决定帝国、城市、科研与单位行动。实验性质，尚无实测获胜。
-- [Jev Trade](https://github.com/aowang-ai/jev-trade) - 实时 Hyperliquid 交易台：每 tick 由 Jev 回答多/空、开/平/观望和杠杆的 Choice 问题；代码负责下单或撤单。默认 dry-run；填 live key 会发真实订单。Demo：[jev-trade.com](https://www.jev-trade.com/)。
+- [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - 基于 Jev Choice 与 Noul 的 Discord 审核机器人：实时检测垃圾信息与诈骗链接、分析成员行为画像并支持动态误报纠错。
 - [Jev Trader](https://github.com/jarrodwatts/jev-trader) - 每个 Monad 区块在 Kuru 的 MON-USDC 订单簿上做一次买/卖决策。在线 demo：[jev-trader.vercel.app](https://jev-trader.vercel.app/)。
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) - 粘贴职场客套话，Jev 给被动攻击、紧急程度和信息密度打分，代码输出 rustc 风格诊断。在线体验：[human-compiler.asfarlab.fun](https://human-compiler.asfarlab.fun)。
 - [JEVMETER](https://github.com/ChetasLua/jevmeter) - 针对任意视频的实时 Jev 打分表：每句话都打分，渲染成 16:9 剪辑。Demo 见 [Chetaslua](https://x.com/chetaslua/status/2100473581251748216)。
