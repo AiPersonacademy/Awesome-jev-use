@@ -23,6 +23,7 @@ Jev launched in early access on 15 September 2026. This catalog is curated and m
 - [Patterns](#patterns)
 - [Articles](#articles)
 - [Contribute](#contribute)
+- [Contributors & Ecosystem Builders](#contributors--ecosystem-builders)
 - [Maintainers](#maintainers)
 - [License](#license)
 
@@ -141,6 +142,7 @@ Open-source products and demos that put Jev in a real loop.
 - [Jev Plays StarCraft](https://github.com/phyous/tsai-sc) - Structured-state harness for the original StarCraft shareware campaign, with verified run and probability traces.
 - [Jev × Civilization II](https://github.com/phyous/tsai-civ2) - Original Civ II in a browser; Jev chooses empire, city, research, and unit actions. Experimental; no verified win yet
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - Discord moderation bot using Jev Choice and Noul for real-time spam/scam filtering, member behavioral profiling, and dynamic false-positive learning.
+- [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) - AI-powered antivirus, URL threat scanner, live Windows process EDR sentinel, and Android APK security inspector using Jev System One Choice, Score, and Noul primitives with CustomTkinter GUI and bulk triage.
 - [Jev Trader](https://github.com/jarrodwatts/jev-trader) - One buy/sell decision per Monad block on Kuru's MON-USDC book. Live demo: [jev-trader.vercel.app](https://jev-trader.vercel.app/).
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) - Paste corporate prose; Jev scores passive-aggression, urgency, and information density, then code emits rustc-style diagnostics. Live: [human-compiler.asfarlab.fun](https://human-compiler.asfarlab.fun).
 - [JEVMETER](https://github.com/ChetasLua/jevmeter) - Live Jev meter on any video: every sentence scored, rendered as a 16:9 edit. Demo: [Chetaslua](https://x.com/chetaslua/status/2100473581251748216).
@@ -286,6 +288,38 @@ Independent measurements, experiments, and news. Official posts live under [Offi
 ## Contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: open a pull request that adds a project with a link and a one-line description. Useful, interesting, and actually built on Jev (or clearly inspired by its interface).
+
+## 👥 Contributors & Ecosystem Builders
+
+Special thanks to the open-source creators and engineers whose innovations are featured in this catalog:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Peu77">
+        <img src="https://github.com/Peu77.png" width="80px;" alt="Peu77" style="border-radius:50%;"/><br />
+        <sub><b>Emil Ebert (@Peu77)</b></sub>
+      </a><br />
+      <sub>Creator of <a href="https://github.com/Peu77/JevFind">Jev Code Finder</a></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/brainstormity">
+        <img src="https://github.com/brainstormity.png" width="80px;" alt="brainstormity" style="border-radius:50%;"/><br />
+        <sub><b>brainstormity (@brainstormity)</b></sub>
+      </a><br />
+      <sub>Creator of <a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/newuser7171">
+        <img src="https://github.com/newuser7171.png" width="80px;" alt="newuser7171" style="border-radius:50%;"/><br />
+        <sub><b>newuser7171 (@newuser7171)</b></sub>
+      </a><br />
+      <sub>Creator of <a href="https://github.com/newuser7171/antivirus">Jev-AV & Jev Guard</a></sub>
+    </td>
+  </tr>
+</table>
+
+*Want to see your project featured here? Open a PR or submit your repo to the [AIPersona Academy Community](https://whop.com/aipersonaacademy) / [@aipersonaacad](https://x.com/aipersonaacad).*
 
 ## Maintainers
 

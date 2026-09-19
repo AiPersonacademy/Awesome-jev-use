@@ -23,6 +23,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [模式](#模式)
 - [文章](#文章)
 - [贡献](#贡献)
+- [社区贡献与生态构建者](#-社区贡献与生态构建者)
 - [维护团队](#维护团队)
 - [许可证](#许可证)
 
@@ -141,6 +142,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [Jev 玩星际争霸](https://github.com/phyous/tsai-sc) - 针对初代星际争霸共享版战役的结构化状态测试平台，带已验证的运行记录与概率轨迹。
 - [Jev × 文明 II](https://github.com/phyous/tsai-civ2) - 浏览器跑初代文明 II；Jev 决定帝国、城市、科研与单位行动。实验性质，尚无实测获胜。
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - 基于 Jev Choice 与 Noul 的 Discord 审核机器人：实时检测垃圾信息与诈骗链接、分析成员行为画像并支持动态误报纠错。
+- [Jev-AV 与 Jev Guard](https://github.com/newuser7171/antivirus) - 基于 Jev System One 的 AI 杀毒软件、URL 威胁检测、Windows 实时进程 EDR 哨兵与 Android APK 安全分析器，支持 CustomTkinter 桌面 GUI 与批量分流。
 - [Jev Trader](https://github.com/jarrodwatts/jev-trader) - 每个 Monad 区块在 Kuru 的 MON-USDC 订单簿上做一次买/卖决策。在线 demo：[jev-trader.vercel.app](https://jev-trader.vercel.app/)。
 - [Human Compiler](https://github.com/asfarsadewa/human-compiler) - 粘贴职场客套话，Jev 给被动攻击、紧急程度和信息密度打分，代码输出 rustc 风格诊断。在线体验：[human-compiler.asfarlab.fun](https://human-compiler.asfarlab.fun)。
 - [JEVMETER](https://github.com/ChetasLua/jevmeter) - 针对任意视频的实时 Jev 打分表：每句话都打分，渲染成 16:9 剪辑。Demo 见 [Chetaslua](https://x.com/chetaslua/status/2100473581251748216)。
@@ -286,6 +288,38 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 ## 贡献
 
 见 [CONTRIBUTING.md](CONTRIBUTING.md)。简而言之：开一个 PR，加上项目链接和一句话简介。项目应当有用、有趣，并且真正基于 Jev（或明确受其接口启发）。
+
+## 👥 社区贡献与生态构建者
+
+特别鸣谢为 Jev 与 System One 生态做出卓越开源贡献的开发者与工程师：
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Peu77">
+        <img src="https://github.com/Peu77.png" width="80px;" alt="Peu77" style="border-radius:50%;"/><br />
+        <sub><b>Emil Ebert (@Peu77)</b></sub>
+      </a><br />
+      <sub><a href="https://github.com/Peu77/JevFind">Jev Code Finder</a> 作者</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/brainstormity">
+        <img src="https://github.com/brainstormity.png" width="80px;" alt="brainstormity" style="border-radius:50%;"/><br />
+        <sub><b>brainstormity (@brainstormity)</b></sub>
+      </a><br />
+      <sub><a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a> 作者</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/newuser7171">
+        <img src="https://github.com/newuser7171.png" width="80px;" alt="newuser7171" style="border-radius:50%;"/><br />
+        <sub><b>newuser7171 (@newuser7171)</b></sub>
+      </a><br />
+      <sub><a href="https://github.com/newuser7171/antivirus">Jev-AV & Jev Guard</a> 作者</sub>
+    </td>
+  </tr>
+</table>
+
+*想要将你的开源项目收录在此？欢迎提交 PR 或在 [AIPersona Academy 官方社区](https://whop.com/aipersonaacademy) / [@aipersonaacad](https://x.com/aipersonaacad) 与我们联系。*
 
 ## 维护团队
 
