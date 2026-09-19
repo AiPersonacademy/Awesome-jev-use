@@ -49,7 +49,7 @@ New sections are welcome when a category has three or more relevant items.
 
 ## Questions?
 
-Join the [AIPersona Academy Discord](https://discord.gg/aipersona) or open an issue on GitHub if you are unsure whether a project fits.
+Check out the [AIPersona Academy Community](https://whop.com/aipersonaacademy) or open an issue on GitHub if you are unsure whether a project fits.
 
 ---
 
@@ -101,4 +101,4 @@ Join the [AIPersona Academy Discord](https://discord.gg/aipersona) or open an is
 
 ## 交流与反馈
 
-如有疑问，欢迎加入 [AIPersona Academy Discord](https://discord.gg/aipersona) 或先在 GitHub 提交 issue。
+如有疑问，欢迎访问 [AIPersona Academy 官方社区](https://whop.com/aipersonaacademy) 或先在 GitHub 提交 issue。

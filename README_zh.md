@@ -1,4 +1,4 @@
-# APA Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Curated by AIPersona Academy](https://img.shields.io/badge/Curated%20by-AIPersona%20Academy-8A2BE2.svg)](https://aipersona.academy) [![APA 生态](https://img.shields.io/badge/APA-%E7%94%9F%E6%80%81-059669.svg)](https://aipersona.academy) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+# APA Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Curated by AIPersona Academy](https://img.shields.io/badge/Curated%20by-AIPersona%20Academy-8A2BE2.svg)](https://whop.com/aipersonaacademy) [![APA 生态](https://img.shields.io/badge/APA-%E7%94%9F%E6%80%81-059669.svg)](https://whop.com/aipersonaacademy) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
 由 **APA (AIPersona Academy / 人工智能画像学院)** 精选与维护的 [Jev](https://docs.typesafe.ai/introduction) 应用、库、工具与生态资料汇总。Jev 是 TypeSafe 的旗舰 [System One](https://docs.typesafe.ai/concepts/system-one) 机器原生决策模型。
 
@@ -72,6 +72,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 - [AIPersona Academy 官方中心](https://whop.com/aipersonaacademy) - 官方学术与实践中心，提供前沿实操课程、技术白皮书与 Agent 生产模板。
 - [AIPersona Academy 官方社区](https://whop.com/aipersonaacademy) - APA 官方社区，汇聚 AI Agent 开发者、数字 Persona 工程师与 System One 研究者。
+- [APA X @aipersonaacad](https://x.com/aipersonaacad) - 第一时间获取机器原生决策与自主智能体工程动态。
 - [Discord](https://discord.gg/typesafe) - TypeSafe 官方服务器。Builder demo 在 [Show and Tell](https://discord.com/channels/1483217544214085663/1483217545040232493)。
 - [X @typesafeai](https://x.com/typesafeai) - 产品与研究动态。
 - [LinkedIn](https://www.linkedin.com/company/typesafe-ai/) - 公司公告与招聘。
@@ -121,6 +122,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [HA-Jev](https://github.com/AboveColin/HA-Jev) - 非官方 Home Assistant 集成：针对实体状态的类型化提问变成传感器与自动化动作，带目标选择器，从用户自己的实体构建状态，并提供用量、成本和日预算实体。
 - [Every](https://github.com/sufianetaouil/every) - 语义代码搜索 CLI：对每个函数问一个 yes/no 问题，按 Noul 概率排序。
 - [blink](https://github.com/ellipsis-dev/blink) - 代码库搜索：一组 walker 询问 Jev 哪个文件能回答自然语言查询。
+- [Jev Code Finder](https://github.com/Peu77/JevFind) - 基于 Jev 的语义代码搜索 CLI：根据自然语言描述评估文件路径相关性，并精准定位代码行与置信度。
 - [Jev Search](https://github.com/superagents-lab/jev-search) - 非官方网页搜索应用，用 Jev 的 Choice 和 Noul 判断挑选来源、时间范围和候选 query，再对通过 Search1API 取回的结果排序。
 - [neo4jev](https://github.com/jexp/neo4jev) - Neo4j 图漫游：在每个节点上让 Jev 选择走哪条关系，对对数概率做 beam search。
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) - 实验性 Hono 路由：Jev 把传入请求匹配到自然语言路由描述。

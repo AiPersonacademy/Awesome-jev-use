@@ -1,4 +1,4 @@
-# APA Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Curated by AIPersona Academy](https://img.shields.io/badge/Curated%20by-AIPersona%20Academy-8A2BE2.svg)](https://aipersona.academy) [![APA Ecosystem](https://img.shields.io/badge/APA-Ecosystem-059669.svg)](https://aipersona.academy) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+# APA Awesome Jev [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Curated by AIPersona Academy](https://img.shields.io/badge/Curated%20by-AIPersona%20Academy-8A2BE2.svg)](https://whop.com/aipersonaacademy) [![APA Ecosystem](https://img.shields.io/badge/APA-Ecosystem-059669.svg)](https://whop.com/aipersonaacademy) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
 A curated catalog of applications, libraries, tools, and resources for [Jev](https://docs.typesafe.ai/introduction) (TypeSafe's flagship [System One](https://docs.typesafe.ai/concepts/system-one) model), curated and maintained by **APA (AIPersona Academy)**.
 
@@ -72,6 +72,7 @@ Flagship architectures, agent blueprints, and toolkits engineered by **AIPersona
 
 - [AIPersona Academy Hub](https://whop.com/aipersonaacademy) - Courses, masterclasses, architectural whitepapers, and agent templates.
 - [AIPersona Academy Community](https://whop.com/aipersonaacademy) - The official APA community for AI agent developers, persona builders, and System One researchers.
+- [APA X @aipersonaacad](https://x.com/aipersonaacad) - Updates on agentic persona design and machine-native evaluation.
 - [Discord](https://discord.gg/typesafe) - Official TypeSafe server. Builder demos live in [Show and Tell](https://discord.com/channels/1483217544214085663/1483217545040232493).
 - [X @typesafeai](https://x.com/typesafeai) - Product and research updates.
 - [LinkedIn](https://www.linkedin.com/company/typesafe-ai/) - Company announcements and hiring.
@@ -121,6 +122,7 @@ Open-source products and demos that put Jev in a real loop.
 - [HA-Jev](https://github.com/AboveColin/HA-Jev) - Unofficial Home Assistant integration: typed questions about entity state become sensors and automation actions, with a target picker that builds the state from the user's own entities and usage, cost, and daily-budget entities alongside the answers
 - [Every](https://github.com/sufianetaouil/every) - Semantic code-search CLI: a yes/no question against every function, ranked by Noul probability.
 - [blink](https://github.com/ellipsis-dev/blink) - Codebase search: an ensemble of walkers asks Jev which file answers a natural-language query
+- [Jev Code Finder](https://github.com/Peu77/JevFind) - Fast semantic code search CLI that uses Jev to score path relevance and pinpoint code line ranges from natural language queries.
 - [Jev Search](https://github.com/superagents-lab/jev-search) - Unofficial web search app using Jev's Choice and Noul judgments to select sources, time ranges, and query candidates, then rank results retrieved through Search1API
 - [neo4jev](https://github.com/jexp/neo4jev) - Neo4j graph navigation: at each node Jev chooses which relationship to follow, with beam search over log-probabilities
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) - Experimental Hono router: Jev matches an incoming request to a plain-language route description
