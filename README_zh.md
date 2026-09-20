@@ -269,6 +269,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [JEVfire](https://github.com/kikoncuo/jevfire) - 通过 vLLM 为 CUDA LLM 提供受 Jev 启发的并行决策，带浏览器马里奥 demo（本地约 71 ms/动作）。
 - [decider](https://github.com/Mapika/decider) - Qwen3.5-2B 微调，单 pass 输出带校准概率的类型化决策。非官方；不是 TypeSafe 架构。
 - [LitJev](https://github.com/zhengxuyu/litjev) - 对 Jev 的复现：把任意 Qwen 模型变成快速决策模型，提供同款 `/v1/systemone` 接口（Choice、Score、Noul），无需训练，不生成回答文本。非官方；不是 TypeSafe 模型。
+- [laya](https://github.com/NandhaKishorM/laya) - 轻量级本地 421M 开源决策模型，提供低于 15ms 的推理速度（约 86.5 次决策/秒），实现零网络延迟的实时游戏循环与 Agent 内部循环。
 - [PlayJev](https://github.com/OmniJev/PlayJev) - Qwen3.5-0.8B-Base 微调后玩 10 款浏览器游戏（从 448 px 帧画面输入）：每步一次 forward pass，从选项字母直接读出游戏选项列表上的概率分布，不生成文本。权重开源，10 款游戏可在浏览器试玩。非官方；不是 TypeSafe 模型。
 - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) - 在 Cerebras 上对同批 System One 问题对比 Jev 与 Qwen 3.8 27B。视频：[Shannon](https://x.com/iamMrDuncan/status/2100467548298899918)。
 - [Jev Rerank Bench](https://github.com/anessbelbati/jev-rerank-bench) - 重排对比实验，带原始响应、打分代码、不确定性区间与详尽说明。
