@@ -64,10 +64,14 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 | | [Supercov](https://github.com/supercorp-ai/supercov) | 针对编程智能体的代码质量与测试覆盖打分工具，指引优先修改位置 | `Score` |
 | | [Jev Review](https://github.com/devagrawal09/jev-review) | 分阶段代码审查工作流与本地看板 | `Choice`, `Score` |
 | **📊 数据智能与采集** | [APA 爬取与市场情报套件](https://github.com/AiPersonacademy/apa-scraping-suite) | 抗检测社群情报采集套件，毫秒级筛查买家痛点与营销 Hook | `Choice`, `Noul` |
+| | [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) | 每种资产摄取 50-1,000 条实时推文，利用 Jev 评估多空情绪与置信度 | `Choice`, `Score` |
 | | [Jev Search](https://github.com/superagents-lab/jev-search) | 利用 Jev 判断挑选搜索来源、时间范围与重排检索结果的 Web 搜索 | `Choice`, `Noul` |
 | | [neo4jev](https://github.com/jexp/neo4jev) | 在 Neo4j 图数据库节点上选择关系走向的束搜索漫游工具 | `Choice` |
 | | [sqlite3-jev](https://github.com/mattn/sqlite3-jev) | 将 Jev 评估原语暴露为原生 SQL 函数的 SQLite C 扩展 | `Choice`, `Score`, `Noul` |
 | | [jevql](https://github.com/kylemclaren/jevql) | 原生 Postgres SQL 批处理引擎，直接在服务端运行 Jev 判定 | `Choice`, `Score`, `Noul` |
+| **🎬 视频与媒体智能** | [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) | 短视频黄金 3 秒留存率、LF8 心理驱动与广告合规风险评估终端工作台 | `Choice`, `Score`, `Noul` |
+| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | 针对视频内容进行逐句实时 Jev 打分并生成 16:9 动态遮罩 | `Score` |
+| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | 466ms 低延迟音频辱骂检测并自动打码消音 | `Noul` |
 | **🎮 游戏、仿真与机器人** | [Jev 玩星际争霸](https://github.com/phyous/tsai-sc) | 初代星际争霸战役结构化状态测试平台，带概率轨迹与运行记录 | `Choice` |
 | | [Jev × 文明 II](https://github.com/phyous/tsai-civ2) | 浏览器文明 II 决策平台，Jev 决定帝国科技、城市治理与部队调动 | `Choice` |
 | | [Jev Drone](https://github.com/RomanSlack/jev-drone) | MuJoCo 四旋翼模拟：底层控制留给代码，Jev 负责战术决策 | `Choice` |
@@ -75,8 +79,6 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 | **🌐 Web、实时与金融** | [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | 实验性 Hono 路由中间件：将请求匹配至自然语言路由描述 | `Choice` |
 | | [Jev Trader](https://github.com/jarrodwatts/jev-trader) | 基于 Monad 区块在 Kuru 订单簿上执行买卖决策的高频交易 Demo | `Choice` |
 | | [Human Compiler](https://github.com/asfarsadewa/human-compiler) | 评估职场沟通文本的被动攻击与紧急程度，输出 rustc 风格诊断 | `Score` |
-| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | 针对视频内容进行逐句实时 Jev 打分并生成 16:9 动态遮罩 | `Score` |
-| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | 466ms 低延迟音频辱骂检测并自动打码消音 | `Noul` |
 | **📱 浏览器与移动端** | [jev-ego](https://github.com/romaluev/jev-ego) | 基于 ego lite 的浏览器智能体，单次请求完成操作与目标选择 | `Choice` |
 | | [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) | 基于 Playwright 快照决策点击/输入的自动化工具与 MCP 服务 | `Choice` |
 | | [Mobile Jev](https://github.com/droidrun/mobile-jev) | 基于 Mobilerun 的免 ADB 安卓自动化智能体 | `Choice` |
@@ -87,6 +89,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 由 **AIPersona Academy (APA)** 打造的旗舰架构、Agent 蓝图与 System One 赋能工具包：
 
+- [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - 面向短视频创作者与 AI UGC 矩阵的高通量终端工作台与 SQLite 基准套件。通过并行 Jev 判定（`Choice`, `Score`, `Noul`）在 50ms 内预测前 3 秒留存率、LF8 消费心理驱动及广告合规风险，并提供即时改写建议。
 - [APA 爬取与市场情报套件](https://github.com/AiPersonacademy/apa-scraping-suite) - 专为 AI Persona 研究打造的零鉴权、抗检测社群情报采集套件。利用 Jev `Noul` 和 `Choice` 毫秒级筛查帖子相关度、提取真实买家痛点并给营销 Hook 打分，避免昂贵的大模型全文摘要。
 - [APA 自主 Persona 运行时引擎](https://github.com/AiPersonacademy/apa-persona-engine) - AIPersona Academy 设计的企业级多智能体运行时。在多智能体交互中部署 Jev 进行即时状态路由、情感效价调制与置信度安全网关。
 - [APA Agent 决策 Harness](https://github.com/AiPersonacademy/apa-agent-harness) - 适用于 Claude Code、Codex、Cursor 与 Antigravity 的即插即用安全脚手架，在工具执行前运行 Jev 风险评分，并在执行后验证完成度。
@@ -182,6 +185,8 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [Jev Drone](https://github.com/RomanSlack/jev-drone) - MuJoCo 四旋翼：控制与安全留在代码里，Jev 处理较慢的战术判断。
 - [Jev 玩星际争霸](https://github.com/phyous/tsai-sc) - 针对初代星际争霸共享版战役的结构化状态测试平台，带已验证的运行记录与概率轨迹。
 - [Jev × 文明 II](https://github.com/phyous/tsai-civ2) - 浏览器跑初代文明 II；Jev 决定帝国、城市、科研与单位行动。实验性质，尚无实测获胜。
+- [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - 面向短视频创作者与 AI UGC 矩阵的高通量终端工作台与 SQLite 基准套件。通过并行 Jev 判定（`Choice`, `Score`, `Noul`）在 50ms 内预测前 3 秒留存率、LF8 消费心理驱动及广告合规风险，并提供即时改写建议。
+- [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) - 由 @brainstormity 开发的加密货币社交情绪实时终端：针对各币种抓取 50-1,000 条实时推文，通过 Jev 进行多空情绪评分，结合 SQLite 去重与终端/网页看板。
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - 基于 Jev Choice 与 Noul 的 Discord 审核机器人：实时检测垃圾信息与诈骗链接、分析成员行为画像并支持动态误报纠错。
 - [Jev-AV 与 Jev Guard](https://github.com/newuser7171/antivirus) - 基于 Jev System One 的 AI 杀毒软件、URL 威胁检测、Windows 实时进程 EDR 哨兵与 Android APK 安全分析器，支持 CustomTkinter 桌面 GUI 与批量分流。
 - [Jev Trader](https://github.com/jarrodwatts/jev-trader) - 每个 Monad 区块在 Kuru 的 MON-USDC 订单簿上做一次买/卖决策。在线 demo：[jev-trader.vercel.app](https://jev-trader.vercel.app/)。
@@ -348,7 +353,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
         <img src="https://github.com/brainstormity.png" width="80px;" alt="brainstormity" style="border-radius:50%;"/><br />
         <sub><b>brainstormity (@brainstormity)</b></sub>
       </a><br />
-      <sub><a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a> 作者</sub>
+      <sub><a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a> 与 <a href="https://github.com/brainstormity/Jev-X-Sentiment-Analysis">Jev X Sentiment Analysis</a> 作者</sub>
     </td>
     <td align="center">
       <a href="https://github.com/newuser7171">

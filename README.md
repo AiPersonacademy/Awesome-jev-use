@@ -64,10 +64,14 @@ A categorized master overview of all featured open-source tools, applications, a
 | | [Supercov](https://github.com/supercorp-ai/supercov) | Code quality and test coverage prioritization for coding agents | `Score` |
 | | [Jev Review](https://github.com/devagrawal09/jev-review) | Staged code-review workflow and local review dashboard | `Choice`, `Score` |
 | **📊 Data & Scraping** | [APA Scraping Suite](https://github.com/AiPersonacademy/apa-scraping-suite) | Zero-auth Reddit/social intelligence scraper & Voice-of-Customer scoring | `Choice`, `Noul` |
+| | [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) | Ingests 50-1,000 live tweets per crypto asset & scores bullishness vs. bearishness | `Choice`, `Score` |
 | | [Jev Search](https://github.com/superagents-lab/jev-search) | Web search app using Jev judgments to select sources and rank retrieved results | `Choice`, `Noul` |
 | | [neo4jev](https://github.com/jexp/neo4jev) | Neo4j graph navigation using beam search over relationship log-probabilities | `Choice` |
 | | [sqlite3-jev](https://github.com/mattn/sqlite3-jev) | SQLite C extension exposing Jev evaluation primitives as native SQL functions | `Choice`, `Score`, `Noul` |
 | | [jevql](https://github.com/kylemclaren/jevql) | Postgres SQL query engine running server-side Jev evaluations over rows | `Choice`, `Score`, `Noul` |
+| **🎬 Video & Media** | [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) | Terminal workbench & SQLite benchmark suite for 3s retention odds, LF8 & policy risk | `Choice`, `Score`, `Noul` |
+| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | Real-time sentence scoring and 16:9 graphic overlay rendering on video | `Score` |
+| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | Real-time audio profanity detector that beeps insults in ~466 ms | `Noul` |
 | **🎮 Gaming & Simulation** | [Jev Plays StarCraft](https://github.com/phyous/tsai-sc) | Structured-state campaign harness with verified probability traces | `Choice` |
 | | [Jev × Civilization II](https://github.com/phyous/tsai-civ2) | Browser Civ II engine with Jev directing empire, technology, and tactical units | `Choice` |
 | | [Jev Drone](https://github.com/RomanSlack/jev-drone) | MuJoCo quadrotor simulation: controls in code, tactical decisions via Jev | `Choice` |
@@ -75,8 +79,6 @@ A categorized master overview of all featured open-source tools, applications, a
 | **🌐 Web & Real-Time** | [hono-jev-router](https://github.com/yusukebe/hono-jev-router) | Natural language HTTP route matching middleware for Hono | `Choice` |
 | | [Jev Trader](https://github.com/jarrodwatts/jev-trader) | On-chain Monad order book trading bot executing per-block decisions | `Choice` |
 | | [Human Compiler](https://github.com/asfarsadewa/human-compiler) | Analyzes workplace prose for passive-aggression and urgency with rustc diagnostics | `Score` |
-| | [JEVMETER](https://github.com/ChetasLua/jevmeter) | Real-time sentence scoring and 16:9 graphic overlay rendering on video | `Score` |
-| | [jev-audio-beeper](https://github.com/santos-sanz/jev-audio-beeper) | Real-time audio profanity detector that beeps insults in ~466 ms | `Noul` |
 | **📱 Browser & Mobile** | [jev-ego](https://github.com/romaluev/jev-ego) | Browser agent selecting operations and elements via ego lite | `Choice` |
 | | [jev-browser](https://github.com/Ying-Kai-Liao/jev-browser) | Playwright browser automation deciding actions from DOM snapshots with MCP server | `Choice` |
 | | [Mobile Jev](https://github.com/droidrun/mobile-jev) | Android UI agent running without ADB on Mobilerun | `Choice` |
@@ -87,6 +89,7 @@ A categorized master overview of all featured open-source tools, applications, a
 
 Flagship architectures, agent blueprints, and toolkits engineered by **AIPersona Academy (APA)** leveraging Jev / System One primitives:
 
+- [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - High-throughput terminal workbench & SQLite benchmarking harness for short-form video hooks (TikTok, Reels, Shorts). Evaluates 3-second retention odds, psychological Life-Force 8 (LF8) drivers, and ad compliance risks via parallel Jev System One questions in sub-50ms deterministic passes.
 - [APA Scraping & Market Intelligence Suite](https://github.com/AiPersonacademy/apa-scraping-suite) - Zero-auth, anti-detection intelligence suite powering AI Persona research. Uses Jev `Noul` and `Choice` to classify buyer pain points, screen thread relevance, and score viral hooks in real-time without expensive LLM summarization passes.
 - [APA Autonomous Persona Engine](https://github.com/AiPersonacademy/apa-persona-engine) - Production multi-agent runtime designed by AIPersona Academy. Deploys Jev for instant state routing, emotional valence modulation, and confidence-gated policy boundaries across autonomous digital brand personas.
 - [APA Agent Decision Harness](https://github.com/AiPersonacademy/apa-agent-harness) - Drop-in harness for Claude Code, Codex, Cursor, and Antigravity agents that wraps tool execution in pre-flight Jev safety scoring and post-execution trajectory verification.
@@ -182,6 +185,8 @@ Open-source products and demos that put Jev in a real loop.
 - [Jev Drone](https://github.com/RomanSlack/jev-drone) - MuJoCo quadrotor: control and safety stay in code; Jev handles slower tactical judgments.
 - [Jev Plays StarCraft](https://github.com/phyous/tsai-sc) - Structured-state harness for the original StarCraft shareware campaign, with verified run and probability traces.
 - [Jev × Civilization II](https://github.com/phyous/tsai-civ2) - Original Civ II in a browser; Jev chooses empire, city, research, and unit actions. Experimental; no verified win yet
+- [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - High-throughput terminal workbench & SQLite benchmarking harness for short-form video hooks (TikTok, Reels, Shorts). Deploys parallel Jev System One questions (`Choice`, `Score`, `Noul`) to evaluate 3-second retention viability, Life-Force 8 psychological drivers, and ad compliance hazard flags with instant rewrites.
+- [Jev X Sentiment Analysis](https://github.com/brainstormity/Jev-X-Sentiment-Analysis) - Real-time crypto market sentiment analysis terminal by @brainstormity ingesting 50-1,000 live tweets per asset, scoring bullishness vs. bearishness via Jev, with SQLite deduplication and terminal/web dashboard.
 - [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) - Discord moderation bot using Jev Choice and Noul for real-time spam/scam filtering, member behavioral profiling, and dynamic false-positive learning.
 - [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) - AI-powered antivirus, URL threat scanner, live Windows process EDR sentinel, and Android APK security inspector using Jev System One Choice, Score, and Noul primitives with CustomTkinter GUI and bulk triage.
 - [Jev Trader](https://github.com/jarrodwatts/jev-trader) - One buy/sell decision per Monad block on Kuru's MON-USDC book. Live demo: [jev-trader.vercel.app](https://jev-trader.vercel.app/).
@@ -348,7 +353,7 @@ Special thanks to the open-source creators and engineers whose innovations are f
         <img src="https://github.com/brainstormity.png" width="80px;" alt="brainstormity" style="border-radius:50%;"/><br />
         <sub><b>brainstormity (@brainstormity)</b></sub>
       </a><br />
-      <sub>Creator of <a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a></sub>
+      <sub>Creator of <a href="https://github.com/brainstormity/Jev-Moderation-Bot">Jev Moderation Bot</a> & <a href="https://github.com/brainstormity/Jev-X-Sentiment-Analysis">Jev X Sentiment Analysis</a></sub>
     </td>
     <td align="center">
       <a href="https://github.com/newuser7171">
