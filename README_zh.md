@@ -49,6 +49,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 | 领域分类 | 开源项目 | 简要概述 | 核心原语 |
 | :--- | :--- | :--- | :---: |
+| **⚡ 网关与反向代理** | [JevProxy](https://jevproxy.com/) | 智能体 System One 即插即用反向代理。仅需修改 1 行 baseURL 即可降低 65% API 账单与 90% 延迟 (<25ms, $0.0001) | `Choice`, `Score`, `Noul` |
 | **🛡️ 网络安全与 EDR** | [Jev-AV 与 Jev Guard](https://github.com/newuser7171/antivirus) | 文件防病毒、URL 威胁检测、Windows 实时 EDR 哨兵与 Android APK 审计 | `Choice`, `Score`, `Noul` |
 | | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord 实时垃圾信息/诈骗链接检测与成员行为画像机器人 | `Choice`, `Noul` |
 | | [tripwire](https://github.com/noelzappy/tripwire) | 在 LLM 响应上运行 100ms 级别、带置信度门控的安全检查中间件 | `Noul` |
@@ -87,8 +88,9 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 
 ## APA (AIPersona Academy) 生态与旗舰项目
 
-由 **AIPersona Academy (APA)** 打造的旗舰架构、Agent 蓝图与 System One 赋能工具包：
+由 **AIPersona Academy (APA)** 打造的旗舰架构、SaaS 决策网关与 System One 赋能工具包：
 
+- [JevProxy](https://jevproxy.com/) - **旗舰商业智能体网关**。面向 AI 智能体的 System One 即插即用反向代理。仅需修改 1 行 `baseURL` 即可拦截中间意图分类、工具分发与安全防火墙，将模型调用成本降低 65%，循环延迟降低 90%（sub-25ms，单次 $0.0001），同时将长文本与创意生成无缝透传给上游 OpenAI 与 Claude。
 - [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - 面向短视频创作者与 AI UGC 矩阵的高通量终端工作台与 SQLite 基准套件。通过并行 Jev 判定（`Choice`, `Score`, `Noul`）在 50ms 内预测前 3 秒留存率、LF8 消费心理驱动及广告合规风险，并提供即时改写建议。
 - [APA 爬取与市场情报套件](https://github.com/AiPersonacademy/apa-scraping-suite) - 专为 AI Persona 研究打造的零鉴权、抗检测社群情报采集套件。利用 Jev `Noul` 和 `Choice` 毫秒级筛查帖子相关度、提取真实买家痛点并给营销 Hook 打分，避免昂贵的大模型全文摘要。
 - [APA 自主 Persona 运行时引擎](https://github.com/AiPersonacademy/apa-persona-engine) - AIPersona Academy 设计的企业级多智能体运行时。在多智能体交互中部署 Jev 进行即时状态路由、情感效价调制与置信度安全网关。

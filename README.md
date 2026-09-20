@@ -49,6 +49,7 @@ A categorized master overview of all featured open-source tools, applications, a
 
 | Category | Repository | Brief Summary | Core Primitives |
 | :--- | :--- | :--- | :---: |
+| **⚡ Gateways & Proxies** | [JevProxy](https://jevproxy.com/) | Drop-in System One reverse proxy for AI agents. Cuts costs by 65% and loop latency by 90% via 1-line baseURL swap (<25ms, $0.0001) | `Choice`, `Score`, `Noul` |
 | **🛡️ Security & EDR** | [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) | File antivirus, URL threat scanner, live Windows EDR sentinel & Android APK inspector | `Choice`, `Score`, `Noul` |
 | | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord bot for real-time scam/spam filtering & user behavioral profiling | `Choice`, `Noul` |
 | | [tripwire](https://github.com/noelzappy/tripwire) | Sub-100ms confidence-gated safety guardrails on LLM responses | `Noul` |
@@ -87,8 +88,9 @@ A categorized master overview of all featured open-source tools, applications, a
 
 ## APA (AIPersona Academy) Showcase & Integrations
 
-Flagship architectures, agent blueprints, and toolkits engineered by **AIPersona Academy (APA)** leveraging Jev / System One primitives:
+Flagship architectures, SaaS gateways, and toolkits engineered by **AIPersona Academy (APA)** leveraging Jev / System One primitives:
 
+- [JevProxy](https://jevproxy.com/) - **Flagship Commercial Agent Gateway**. Drop-in System One reverse proxy for AI agents. Cut OpenAI and Anthropic agent costs by 65% and loop latency by 90% with a 1-line `baseURL` swap. Intercepts intermediate routing, tool classification, and safety guardrails in sub-25ms at $0.0001 via TypeSafe Jev, while passing long-form generative synthesis upstream.
 - [Jev Video Hook Studio](https://github.com/AiPersonacademy/Jev-Video-Hook-Studio) - High-throughput terminal workbench & SQLite benchmarking harness for short-form video hooks (TikTok, Reels, Shorts). Evaluates 3-second retention odds, psychological Life-Force 8 (LF8) drivers, and ad compliance risks via parallel Jev System One questions in sub-50ms deterministic passes.
 - [APA Scraping & Market Intelligence Suite](https://github.com/AiPersonacademy/apa-scraping-suite) - Zero-auth, anti-detection intelligence suite powering AI Persona research. Uses Jev `Noul` and `Choice` to classify buyer pain points, screen thread relevance, and score viral hooks in real-time without expensive LLM summarization passes.
 - [APA Autonomous Persona Engine](https://github.com/AiPersonacademy/apa-persona-engine) - Production multi-agent runtime designed by AIPersona Academy. Deploys Jev for instant state routing, emotional valence modulation, and confidence-gated policy boundaries across autonomous digital brand personas.
