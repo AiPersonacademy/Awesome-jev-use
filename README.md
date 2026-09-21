@@ -50,6 +50,7 @@ A categorized master overview of all featured open-source tools, applications, a
 | Category | Repository | Brief Summary | Core Primitives |
 | :--- | :--- | :--- | :---: |
 | **⚡ Gateways & Proxies** | [JevProxy](https://jevproxy.com/) | Drop-in System One reverse proxy for AI agents. Cuts costs by 65% and loop latency by 90% via 1-line baseURL swap (<25ms, $0.0001) | `Choice`, `Score`, `Noul` |
+| | [HarnessRouter](https://github.com/HarnessRouter/harnessrouter) | Plug-and-play unified harness interface running Jev System One alongside Codex, Hermes, Claude Code, and 9+ harnesses via UHP | `Choice`, `Score`, `Noul` |
 | **🛡️ Security & EDR** | [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) | File antivirus, URL threat scanner, live Windows EDR sentinel & Android APK inspector | `Choice`, `Score`, `Noul` |
 | | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord bot for real-time scam/spam filtering & user behavioral profiling | `Choice`, `Noul` |
 | | [tripwire](https://github.com/noelzappy/tripwire) | Sub-100ms confidence-gated safety guardrails on LLM responses | `Noul` |
