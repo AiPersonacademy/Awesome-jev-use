@@ -60,6 +60,7 @@ A categorized master overview of all featured open-source tools, applications, a
 | | [ProgressGate](https://github.com/AshutoshVJTI/progressgate) | Detects semantic loop stagnation (CONTINUE / WARN / REPLAN / HALT) in agents | `Choice` |
 | | [Foreman](https://github.com/thruwire/foreman) | Software-factory loop evaluating completeness, testing, and human escalation | `Choice`, `Noul` |
 | | [jev-harness](https://github.com/AntonioCoppe/jev-harness) | Production layer for policy, confidence gates, shadow mode, and eval CLI | `Choice`, `Score` |
+| | [Beacon](https://github.com/asymptotelabs/beacon) | Continuous agent trajectory capture & self-improving memory layer. Uses Jev to score run delta and extract reusable skills across Claude Code, Codex, Cursor, OpenCode | `Choice`, `Score` |
 | **🔎 Code & Search** | [Jev Code Finder](https://github.com/Peu77/JevFind) | Fast semantic code search CLI with path relevance and line-level confidence | `Choice`, `Score` |
 | | [blink](https://github.com/ellipsis-dev/blink) | Codebase search using an ensemble of walkers querying Jev on file relevance | `Choice` |
 | | [Every](https://github.com/sufianetaouil/every) | Semantic code search checking functions with yes/no questions ranked by Noul | `Noul` |
@@ -248,6 +249,7 @@ Tools that expose Jev to coding agents and MCP clients.
 - [pi-warden](https://github.com/DevMortimer/pi-warden) - Pi guardrails on pi-typesafe: held tool results instead of a dialog; write checks against a project rules file.
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) - Pi auto mode: Jev semantically approves `bash` / `write` / `edit`, and fails closed when it cannot decide.
 - [Bicameral](https://github.com/AbdelStark/bicameral) - Pi coding harness: LLM writes, Jev supplies typed reflexes for policy, loop detection, and review. Explicitly not a sandbox.
+- [Beacon](https://github.com/asymptotelabs/beacon) - Continuous agent trajectory capture and self-improving memory layer by Asymptote Labs. Captures agent histories across Claude Code, Codex, Cursor, and OpenCode, and uses Jev to score trajectory delta, isolate human corrections from dead ends, and convert high-signal execution traces into persistent, reusable agent skills.
 - [jev-pref](https://github.com/doeixd/jev-pref) - Turn AGENTS.md preferences into a Jev-powered AI linter: project-specific semantic review rules in `jev-pref.json`, checked against hunks, staged files, or PRs, with findings fed back to your coding agent. `npx jev-pref setup`.
 - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill: ask Jev whenever the agent needs a bounded decision.
 - [jev-system-architect](https://github.com/samtay32/jev-system-architect) - Skill that hunts for brittle semantic logic and turns it into Choice / Score / Noul boundaries.

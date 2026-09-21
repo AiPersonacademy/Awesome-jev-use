@@ -60,6 +60,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 | | [ProgressGate](https://github.com/AshutoshVJTI/progressgate) | 监控智能体循环语义停滞（CONTINUE / WARN / REPLAN / HALT） | `Choice` |
 | | [Foreman](https://github.com/thruwire/foreman) | 软件工厂循环：评估代码实现完整度、测试覆盖与人工接管需求 | `Choice`, `Noul` |
 | | [jev-harness](https://github.com/AntonioCoppe/jev-harness) | 生产级封装层：策略路由、置信度门控、影子模式与评测 CLI | `Choice`, `Score` |
+| | [Beacon](https://github.com/asymptotelabs/beacon) | 连续捕获 Agent 运行轨迹的自进化记忆层。利用 Jev 对运行轨迹增量打分并提取可复用技能（支持 Claude Code、Codex、Cursor、OpenCode） | `Choice`, `Score` |
 | **🔎 代码检索与开发工具** | [Jev Code Finder](https://github.com/Peu77/JevFind) | 基于自然语言查询定位文件相关度与精准代码行置信度的搜索 CLI | `Choice`, `Score` |
 | | [blink](https://github.com/ellipsis-dev/blink) | 使用 walker 智能体集群在代码库中回答自然语言查询的搜索工具 | `Choice` |
 | | [Every](https://github.com/sufianetaouil/every) | 针对每个函数提出 yes/no 问题并按 Noul 概率排序的代码搜索 CLI | `Noul` |
@@ -248,6 +249,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [pi-warden](https://github.com/DevMortimer/pi-warden) - 基于 pi-typesafe 的 Pi 护栏：拦截工具结果而不是弹窗；对照项目规则文件进行写入检查。
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) - Pi 自动模式：Jev 在语义上批准 `bash` / `write` / `edit`，无法决定时默认 fail closed。
 - [Bicameral](https://github.com/AbdelStark/bicameral) - Pi 编程 harness：LLM 负责写，Jev 提供策略、循环检测和审查的类型化反射。明确不是沙箱。
+- [Beacon](https://github.com/asymptotelabs/beacon) - Asymptote Labs 开发的连续捕获 Agent 运行轨迹与自进化记忆层。捕获 Claude Code、Codex、Cursor、OpenCode 跨环境执行日志，利用 Jev 对轨迹增量打分、分离人工纠偏与死胡同，把高信号轨迹转化为持久复用的 Agent 技能。
 - [jev-pref](https://github.com/doeixd/jev-pref) - 把 AGENTS.md 偏好变成 Jev 驱动的 AI linter：在 `jev-pref.json` 里写针对项目的语义审查规则，对照 diff、暂存文件或 PR 检查，把发现反馈给编程 Agent。`npx jev-pref setup`。
 - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) - Hermes skill：Agent 需要做边界明确的决策时向 Jev 提问。
 - [jev-system-architect](https://github.com/samtay32/jev-system-architect) - 搜寻脆弱语义逻辑并将其转化为 Choice / Score / Noul 边界的技能包。
