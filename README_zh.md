@@ -51,6 +51,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 | :--- | :--- | :--- | :---: |
 | **⚡ 网关与反向代理** | [JevProxy](https://jevproxy.com/) | 智能体 System One 即插即用反向代理。仅需修改 1 行 baseURL 即可降低 65% API 账单与 90% 延迟 (<25ms, $0.0001) | `Choice`, `Score`, `Noul` |
 | | [HarnessRouter](https://github.com/HarnessRouter/harnessrouter) | 即插即用统一 Harness 运行接口，通过 UHP 协议在单一界面无缝运行 Jev System One、Codex、Hermes、Claude Code 等 9+ Harness | `Choice`, `Score`, `Noul` |
+| | [Treg](https://treg.to/jev) | 面向 Jev 的开源事件驱动 Webhook 路由与触发器编排工具，实现 <25ms 欺诈筛查、采购意向分流与爆款舆情监控 | `Choice`, `Score`, `Noul` |
 | **🛡️ 网络安全与 EDR** | [Jev-AV 与 Jev Guard](https://github.com/newuser7171/antivirus) | 文件防病毒、URL 威胁检测、Windows 实时 EDR 哨兵与 Android APK 审计 | `Choice`, `Score`, `Noul` |
 | | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord 实时垃圾信息/诈骗链接检测与成员行为画像机器人 | `Choice`, `Noul` |
 | | [tripwire](https://github.com/noelzappy/tripwire) | 在 LLM 响应上运行 100ms 级别、带置信度门控的安全检查中间件 | `Noul` |
@@ -200,6 +201,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm) - 仿真 Franka 机械臂上的零样本英语目标，Jev 负责串联硬编码原语。
 - [jev-codex-router](https://github.com/0xNatoshi/jev-codex-router) - 逐轮 Codex 路由：Jev 选择模型、思考深度和速度模式。
 - [jev-router](https://github.com/gargpratyush/jev-router) - 给 Claude Code 和 Codex 用的逐轮路由：Jev 把简单任务派给快速模型，把困难任务派给强模型。`npm i -g jev-router`。
+- [Treg](https://treg.to/jev) - Jason Zhou (@treg_ai) 开发的面向 Jev 的事件驱动 Webhook 路由与触发器编排流水线。将高速入站事件路由与确定性 Jev 决策打分相结合，消除昂贵的 LLM Webhook 处理开销，适用于反欺诈检测、意向线索分流与社媒爆款监控。
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) - diff 敏感信息检测器，Jev 结论具备可复现性。
 - [commit-miner](https://github.com/devanshbatham/commit-miner) - 用 Jev 给 commit diff 分类的 Rust CLI：修 bug、安全/CWE 与修改类型。输出 HTML/CSV 报告。
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) - Jev 早期测试的公开评测 harness。

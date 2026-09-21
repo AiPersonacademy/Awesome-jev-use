@@ -51,6 +51,7 @@ A categorized master overview of all featured open-source tools, applications, a
 | :--- | :--- | :--- | :---: |
 | **⚡ Gateways & Proxies** | [JevProxy](https://jevproxy.com/) | Drop-in System One reverse proxy for AI agents. Cuts costs by 65% and loop latency by 90% via 1-line baseURL swap (<25ms, $0.0001) | `Choice`, `Score`, `Noul` |
 | | [HarnessRouter](https://github.com/HarnessRouter/harnessrouter) | Plug-and-play unified harness interface running Jev System One alongside Codex, Hermes, Claude Code, and 9+ harnesses via UHP | `Choice`, `Score`, `Noul` |
+| | [Treg](https://treg.to/jev) | Open-source trigger routing & webhook orchestrator pairing with Jev for sub-25ms fraud screening, buying signal triage & viral monitoring | `Choice`, `Score`, `Noul` |
 | **🛡️ Security & EDR** | [Jev-AV & Jev Guard](https://github.com/newuser7171/antivirus) | File antivirus, URL threat scanner, live Windows EDR sentinel & Android APK inspector | `Choice`, `Score`, `Noul` |
 | | [Jev Moderation Bot](https://github.com/brainstormity/Jev-Moderation-Bot) | Discord bot for real-time scam/spam filtering & user behavioral profiling | `Choice`, `Noul` |
 | | [tripwire](https://github.com/noelzappy/tripwire) | Sub-100ms confidence-gated safety guardrails on LLM responses | `Noul` |
@@ -200,6 +201,7 @@ Open-source products and demos that put Jev in a real loop.
 - [jev-askable-arm](https://github.com/TarunTomar122/jev-askable-arm) - Zero-shot English goals on a simulated Franka. Jev chains hardcoded primitives.
 - [jev-codex-router](https://github.com/0xNatoshi/jev-codex-router) - Per-turn Codex routing: Jev picks model, thinking depth, and speed mode.
 - [jev-router](https://github.com/gargpratyush/jev-router) - Per-turn routing for Claude Code and Codex: Jev sends simple work to the fast tier and hard work to the strong tier. `npm i -g jev-router`.
+- [Treg](https://treg.to/jev) - Event-driven webhook router and trigger pipeline for Jev by Jason Zhou (@treg_ai). Combines high-speed inbound event routing with deterministic Jev decision scoring to eliminate expensive LLM webhook evaluations for fraud detection, buyer intent triage, and viral social monitoring.
 - [jev-secret-detection](https://github.com/teyhouse/jev-secret-detection) - Secret-in-diff detector with repeatable Jev verdicts.
 - [commit-miner](https://github.com/devanshbatham/commit-miner) - Rust CLI that classifies commit diffs with Jev: bug fixes, security/CWEs, and change types. HTML/CSV reports.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) - Public eval harness for early Jev tests.
