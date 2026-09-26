@@ -58,6 +58,7 @@ A categorized master overview of all featured open-source tools, applications, a
 | | [TypeSafe AdBlock](https://github.com/realZachi/typesafe-adblock) | Chrome extension that classifies and strips advertising DOM elements | `Noul` |
 | **🤖 Agents & Runtimes** | [APA Persona Engine](https://github.com/AiPersonacademy/apa-persona-engine) | Autonomous AI persona runtime with deterministic state routing & emotional valence | `Choice`, `Score` |
 | | [APA Agent Decision Harness](https://github.com/AiPersonacademy/apa-agent-harness) | Safety scoring & trajectory verification harness for Claude Code, Codex, and Cursor | `Choice`, `Score`, `Noul` |
+| | [JevProxy](https://jevproxy.com) | Autonomous agent decision proxy & JEV gateway for Cursor, Claude Code, and multi-agent fleets with sub-25ms tool execution | `Choice`, `Score`, `Noul` |
 | | [ProgressGate](https://github.com/AshutoshVJTI/progressgate) | Detects semantic loop stagnation (CONTINUE / WARN / REPLAN / HALT) in agents | `Choice` |
 | | [Foreman](https://github.com/thruwire/foreman) | Software-factory loop evaluating completeness, testing, and human escalation | `Choice`, `Noul` |
 | | [jev-harness](https://github.com/AntonioCoppe/jev-harness) | Production layer for policy, confidence gates, shadow mode, and eval CLI | `Choice`, `Score` |
@@ -334,6 +335,12 @@ Independent measurements, experiments, and news. Official posts live under [Offi
 - [TypeSafeのJevを正しく驚く、それってLLMでできませんか？](https://zenn.dev/nwn/articles/824026c76116e0) - Reproduces the JSON-vs-logit shortcut on Gemma and compares Jev with LLMs on the public Mario harness.
 - [jev 同士に五目並べで対戦させた](https://zenn.dev/mizchi/articles/jev-plays-gomoku) - Jev vs Jev gomoku with source and timing logs.
 - [Jev: one judge call, or twelve dimension scores? I measured both on three tasks](https://agentjournal.dev/blog/llm-judge-vs-feature-extraction/) - Independent measurement on three classification tasks: one direct Jev question per row against 12–14 Jev-scored dimensions with locally fitted weights, with token costs, confidence intervals, and false-positive rates.
+- [What is JEV? Complete Guide to Autonomous AI Agent Reflexes](https://jevproxy.com/blog/what-is-jev-ai-agent-guide) - Explains System 1 vs System 2 reflexes for Cursor and Claude Code, non-autoregressive decision models, and benchmark telemetry.
+- [Why Cursor Freezes on Tool Calls: System 1 Reflexes with JEV Gateway](https://jevproxy.com/blog/why-cursor-freezes-tool-calls-system-one-jev-gateway) - Why 200B+ autoregressive models bottleneck agent loops and how non-autoregressive decision heads eliminate the 1,420ms latency cliff.
+- [Laya vs Jev: Benchmarking Edge Decision Models for Autonomous AI Agents](https://jevproxy.com/blog/laya-vs-jev-ai-decision-model-benchmark-comparison) - Deep-dive benchmark comparing Convai Laya (ModernBERT 421M) vs TypeSafe Jev (RLCD cross-attention) across latency, VRAM, and candidate logit degradation.
+- [How to Deploy Jev with Vercel AI Gateway: Sub-25ms Decision Routing on Vercel Edge](https://jevproxy.com/blog/how-to-deploy-jev-on-vercel-edge-ai-gateway-guide) - Production guide for deploying non-autoregressive edge decision layers within Vercel Edge Functions without hitting CPU time limits.
+- [How to Use JEV in Cursor and Claude Code](https://jevproxy.com/blog/how-to-use-jev-in-cursor-and-claude-code) - Step-by-step setup guide to eliminate the 2-second tool freeze in Cursor, Claude Code, and Copilot.
+- [Top 5 JEV Gateway Platforms & Best Providers (2026 Benchmark)](https://jevproxy.com/blog/top-jev-gateway-platforms-best-providers-2026) - Benchmark comparing JevProxy, Portkey, LiteLLM, Cloudflare AI Gateway, and Helicone.
 - [Testing Jev on public and private data: classifier or filter?](https://amankumar.ai/blogs/jev-measured) - 16,000 calls vs gpt-5.4-mini and gpt-5.6-luna; where it wins, where it breaks, and a threshold procedure
 
 ## Related
