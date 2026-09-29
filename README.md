@@ -330,6 +330,7 @@ See also: [How to build with TypeSafe](https://docs.typesafe.ai/concepts/how-to-
 
 Independent measurements, experiments, and news. Official posts live under [Official](#official).
 
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Data-driven analysis of 2,170 public GitHub Jev projects, examining early ecosystem growth, application domains, and decision-use patterns
 - [Mini-Vibe Check: TypeSafe's Jev Judged Everything I’ve Written in 0.7 Seconds](https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds) - Every's Mike Taylor runs Jev over a writing corpus.
 - [TypeSafe AI debuts model for machines that plays Doom](https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711) - News coverage of the launch.
 - [TypeSafeのJevを正しく驚く、それってLLMでできませんか？](https://zenn.dev/nwn/articles/824026c76116e0) - Reproduces the JSON-vs-logit shortcut on Gemma and compares Jev with LLMs on the public Mario harness.
