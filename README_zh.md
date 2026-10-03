@@ -277,6 +277,7 @@ Jev 于 2026 年 9 月 15 日开放 early access。本目录由 **AIPersona Acad
 - [laya](https://github.com/NandhaKishorM/laya) - 轻量级本地 421M 开源决策模型，提供低于 15ms 的推理速度（约 86.5 次决策/秒），实现零网络延迟的实时游戏循环与 Agent 内部循环。
 - [kev](https://github.com/jaredpalmer/kev) - 基于 Qwen3 与 LoRA + pointer head 的开源 Jev 风格决策模型家族（0.6B、4B、8B）。只需更改单个 base_url 即可无缝兼容 TypeSafe System One API，H100 上单次决策约 40ms，采用 Apache 2.0 协议。
 - [PlayJev](https://github.com/OmniJev/PlayJev) - Qwen3.5-0.8B-Base 微调后玩 10 款浏览器游戏（从 448 px 帧画面输入）：每步一次 forward pass，从选项字母直接读出游戏选项列表上的概率分布，不生成文本。权重开源，10 款游戏可在浏览器试玩。非官方；不是 TypeSafe 模型。
+- [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) - 基于 ModernBERT-base 微调的独立开源权重决策模型，回答 Noul、Choice、Score 和多标签问题，并为每个选项给出校准后的概率。可在本地提供 TypeSafe `/v1/systemone` 接口，也能通过 ONNX 在浏览器中运行。非官方项目，并非 TypeSafe 的模型。
 - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) - 在 Cerebras 上对同批 System One 问题对比 Jev 与 Qwen 3.8 27B。视频：[Shannon](https://x.com/iamMrDuncan/status/2100467548298899918)。
 - [Jev Rerank Bench](https://github.com/anessbelbati/jev-rerank-bench) - 重排对比实验，带原始响应、打分代码、不确定性区间与详尽说明。
 - [Jev 垃圾邮件评测](https://github.com/bitnovus/jev-spam-eval) - 针对训练过的 TF-IDF 基线的零样本垃圾邮件探索，附后验调优警示。
